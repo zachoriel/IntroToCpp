@@ -2,14 +2,17 @@
 
 int main()
 {
+	// Hello AIE
 	std::cout << "Hello AIE";
 
+	// Mixtape 
 	std::cout << "Track 1" << std::endl;
 	std::cout << "Track 2" << std::endl;
 	std::cout << "Track 3" << std::endl;
 	std::cout << "Track 4" << std::endl;
 	std::cout << "Track 5" << std::endl;
 
+	// Numbers from 0 to 5 to 0
 	std::cout << "0" << std::endl;
 	std::cout << "1" << std::endl;
 	std::cout << "2" << std::endl;
@@ -25,6 +28,7 @@ int main()
 
 	system("pause");
 
+	// SyntacticalErrors-A
 	std::cout << "SyntacticalErrors-A)" << std::endl;
 	std::cout << "Howdy AIE" << std::endl;
 	std::cout << "It's a fine day today as any!" << std::endl;
@@ -32,6 +36,7 @@ int main()
 	
 	system("pause");
 
+	// SyntacticalErrors-B
 	std::cout << "SyntacticalErrors-B)" << std::endl;
 	std::cout << "Four score and seven years ago" << std::endl;
 	std::cout << "our fathers brought forth on this continent," << std::endl;
