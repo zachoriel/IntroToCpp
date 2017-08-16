@@ -3,37 +3,37 @@
 int main()
 {
 	// Celsius to Fahrenheit)
-	float degCelsius = 78.0f;
-	float degFahrenheit = 0.0f;
+	float tempCelsius = 78.0f;
+	float tempFahrenheit = 0.0f;
 
 	std::cout << "Please enter a value in Celsius to convert." << std::endl;
-	std::cin >> degFahrenheit;
+	std::cin >> tempFahrenheit;
 
-	degFahrenheit = degCelsius * (9.f / 5.f) + 32;
+	degFahrenheit = tempCelsius * (9.f / 5.f) + 32;
 
 	std::cout << "Celsius to Fahrenheit)" << std::endl;
-	std::cout << "Celsius:    " << degCelsius << std::endl;
-	std::cout << "Fahrenheit: " << degFahrenheit << std::endl;
+	std::cout << "Celsius:    " << tempCelsius << std::endl;
+	std::cout << "Fahrenheit: " << tempFahrenheit << std::endl;
 
 	system("pause");
 
 
 	// Area of a Rectangle)
-	float rectWidth = 4.0f;
-	float rectHeight = 5.0f;
-	float rectArea = 0.0f;
+	float rectangleWidth = 4.0f;
+	float rectangleHeight = 5.0f;
+	float rectangleArea = 0.0f;
 
 	std::cout << "Enter the height!" << std::endl;
-	std::cin >> rectHeight;
+	std::cin >> rectangleHeight;
 
 	std::cout << "Enter the width!" << std::endl;
-	std::cin >> rectWidth;
+	std::cin >> rectangleWidth;
 
-	rectArea = rectHeight * rectWidth;
+	rectangleArea = rectangleHeight * rectangleWidth;
 
 	std::cout << "Area of a Rectangle)" << std::endl;
-	std::cout << "H: " << rectHeight << " , W: " << rectWidth << std::endl;
-	std::cout << "Area: " << rectArea << std::endl;
+	std::cout << "H: " << rectangleHeight << " , W: " << rectangleWidth << std::endl;
+	std::cout << "Area: " << rectangleArea << std::endl;
 
 	system("pause");
 
