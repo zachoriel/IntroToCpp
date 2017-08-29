@@ -71,4 +71,54 @@ int main()
 
 	system("pause");
 
+	// OPEN
+	// Palindromes
+
+	bool isAlpha(char query)
+	{
+		return query >= 'a' && query <= 'Z' ||
+			   query >= 'a' && query <= 'z';
+	}
+
+	char toLower(char a)
+	{
+		if (query >= 'A' && query <= 'Z')
+			query += 'a' - 'A';
+		return query;
+	}
+
+	bool isPalindrome(char string[])
+	{
+		int i = 0, j = strlen(string)-1;
+		bool hasChar = false;
+		do
+		{
+			while (!isAlpha(string[i]) && i < strlen(string)) i++;
+			while (!isAlpha(string[j]) && j >= 0) j--;
+
+			if (i >= strlen(string) || j < 0)
+				return hasChar;
+
+			if (toLower(string[i])) != toLower(string[j]))
+				return false;
+			i++;
+			j--;
+			hasChar = true;
+
+		} while (j >= 0);
+
+		return true;
+
+	}
+
+
+	
+	void main()
+	{
+		char buffer[80];
+		std::cin.getline(buffer, 80);
+		std::cout << isPalindrome(buffer) << std::endl;
+		system("pause");
+	}
+
 }
