@@ -1,4 +1,4 @@
-// ANOTHER OVERUSED MEDIEVAL RPG 
+// ANOTHER OVERUSED MEDIEVAL ADVENTURE
 
 #include <iostream>
 #include <cstring>
@@ -1014,7 +1014,7 @@ retry:
 			}
 			else if (potionChoice == 2)
 			{
-				cout << "You leave the shop empty handed. Those scrolls certainly could've helped. If only there had been some sort of prompt telling you how to actually pick one of them. Oh well. Good thing this is a video game and you can start over at any time! Yay, 4th wall breaking! :D" << endl;
+				cout << "You leave the shop empty handed. Those scrolls certainly could've helped. Oh well. Good thing this is a video game and you can start over at any time! Yay, 4th wall breaking! :D" << endl;
 				system("pause");
 				cout << "" << endl;
 			}
@@ -1288,7 +1288,7 @@ retry:
 						cout << "" << endl;
 						goto retry;
 					}
-					cout << "About an hour later, you see an ominous red glow in the distant, and can hear faint chanting. You've finally found what you're looking for!" << endl;
+					cout << "About an hour later, you see an ominous red glow in the distance, and can hear faint chanting. You've finally found what you're looking for!" << endl;
 					cout << "You hurry to where the glow and chanting are coming from, and find yourself at a crater. At the bottom of the crater, a bunch of people in robes appear to be performing some sort of ritual around an altar. You hide behind a rock and watch." << endl;
 					cout << "Upon closer inspection, you see a man laying on the altar. No... not just any man, it's the blacksmith who went missing just two days ago! So this is where he went. These cultists must've kidnapped him. But how will you save him? You don't even know what exactly they're doing." << endl;
 					cout << "" << endl;
@@ -2478,6 +2478,8 @@ retry:
 	else
 	{
 		cout << "I'm afraid that wasn't an option. Please press either '1', or '2'. Nothing else will work." << endl;
+		system("pause");
+		cout << "" << endl;
 		goto retry;
 	}
 }
